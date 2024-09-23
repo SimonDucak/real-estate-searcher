@@ -1,0 +1,660 @@
+[
+  {
+    "searchQuery": "Puškinova, Humenné, okres Humenné",
+    "addressData": {
+      "id": "address.8866172207735814",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.592593,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6MTM1YWUwNTMtZTNjMy00MmEzLTk5YWUtYWNmMWUxODU1ZTY5"
+      },
+      "text": "Humenné",
+      "place_name": "Humenné, 066 01 Humenné, Prešov, Slovakia",
+      "center": [
+        21.93003,
+        48.920678
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.93003,
+          48.920678
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.3280589",
+          "mapbox_id": "dXJuOm1ieHBsYzpNZzdO",
+          "text": "066 01"
+        },
+        {
+          "id": "place.6605005",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTWpO",
+          "wikidata": "Q502264",
+          "text": "Humenné"
+        },
+        {
+          "id": "region.66765",
+          "mapbox_id": "dXJuOm1ieHBsYzpBUVRO",
+          "wikidata": "Q189001",
+          "short_code": "SK-PV",
+          "text": "Prešov"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Strečnianska, Bratislava V - Petržalka, okres Bratislava",
+    "addressData": {
+      "id": "address.1817919755964854",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.638889,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6NTkwOWJhMzEtOGU5Yy00OWNiLTgzMTAtODRlMDJlN2M4OTIx"
+      },
+      "text": "Petržalka",
+      "place_name": "Petržalka, 851 02 Bratislava, Bratislava, Slovakia",
+      "center": [
+        17.10976,
+        48.114704
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.10976,
+          48.114704
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5418701",
+          "mapbox_id": "dXJuOm1ieHBsYzpVcTdO",
+          "text": "851 02"
+        },
+        {
+          "id": "place.1403085",
+          "mapbox_id": "dXJuOm1ieHBsYzpGV2pO",
+          "wikidata": "Q1780",
+          "text": "Bratislava"
+        },
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Kapitána Nálepku, Nové Mesto nad Váhom, okres Nové Mesto nad Váhom",
+    "addressData": {
+      "id": "address.894440510668962",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.693603,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6NjlmMjNiZWEtYTk2Mi00ZGJmLTk2MjctMDZjNGQ1NjMyZDFl"
+      },
+      "text": "Nové Mesto Nad Váhom",
+      "place_name": "Nové Mesto Nad Váhom, 915 01 Nové Mesto nad Váhom, Trenčín, Slovakia",
+      "center": [
+        17.835599,
+        48.759458
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.835599,
+          48.759458
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.6516429",
+          "mapbox_id": "dXJuOm1ieHBsYzpZMjdO",
+          "text": "915 01"
+        },
+        {
+          "id": "place.13494477",
+          "mapbox_id": "dXJuOm1ieHBsYzp6ZWpO",
+          "wikidata": "Q376987",
+          "text": "Nové Mesto nad Váhom"
+        },
+        {
+          "id": "region.17613",
+          "mapbox_id": "dXJuOm1ieHBsYzpSTTA",
+          "wikidata": "Q183139",
+          "short_code": "SK-TC",
+          "text": "Trenčín"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Račianska 13917/26C, Bratislava III - Nové Mesto, okres Bratislava",
+    "addressData": {
+      "id": "address.5450386130265088",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.638889,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6OTE1YzQ1ZGUtOTEyZS00NjA4LThiMTItOGZmYjgwZDY5ODc1"
+      },
+      "text": "Nové Mesto",
+      "place_name": "Nové Mesto, 831 04 Bratislava, Bratislava, Slovakia",
+      "center": [
+        17.167372,
+        48.179389
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.167372,
+          48.179389
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5238477",
+          "mapbox_id": "dXJuOm1ieHBsYzpUKzdO",
+          "text": "831 04"
+        },
+        {
+          "id": "place.1403085",
+          "mapbox_id": "dXJuOm1ieHBsYzpGV2pO",
+          "wikidata": "Q1780",
+          "text": "Bratislava"
+        },
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Mierová 649/54, Bratislava II - Ružinov, okres Bratislava",
+    "addressData": {
+      "id": "address.4150685119794142",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.607143,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6ZWM3ZThjOTItYjEyZi00NGQ2LTlhYjktNjI2M2FkMWJkOWVi"
+      },
+      "text": "Ružinov",
+      "place_name": "Ružinov, 821 07 Bratislava, Bratislava, Slovakia",
+      "center": [
+        17.172379,
+        48.129572
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.172379,
+          48.129572
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5156557",
+          "mapbox_id": "dXJuOm1ieHBsYzpUcTdO",
+          "text": "821 07"
+        },
+        {
+          "id": "place.1403085",
+          "mapbox_id": "dXJuOm1ieHBsYzpGV2pO",
+          "wikidata": "Q1780",
+          "text": "Bratislava"
+        },
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Malinová, Dunajská Lužná, okres Senec",
+    "addressData": {
+      "id": "address.1685405249112712",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.637037,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6MzljMjRmZDgtNjcwYi00YmMyLWI1MzMtMTJmOWU0ZGVjNjFm"
+      },
+      "text": "Malinová",
+      "place_name": "Malinová, 900 42 Dunajská Lužná, Bratislava, Slovakia",
+      "center": [
+        17.282685,
+        48.083571
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.282685,
+          48.083571
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5582541",
+          "mapbox_id": "dXJuOm1ieHBsYzpWUzdO",
+          "text": "900 42"
+        },
+        {
+          "id": "place.4376781",
+          "mapbox_id": "dXJuOm1ieHBsYzpRc2pO",
+          "wikidata": "Q911359",
+          "text": "Dunajská Lužná"
+        },
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Karloveská 51, Bratislava IV - Karlova Ves, okres Bratislava",
+    "addressData": {
+      "id": "place.1403085",
+      "type": "Feature",
+      "place_type": [
+        "place"
+      ],
+      "relevance": 0.481481,
+      "properties": {
+        "mapbox_id": "dXJuOm1ieHBsYzpGV2pO",
+        "wikidata": "Q1780"
+      },
+      "text": "Bratislava",
+      "place_name": "Bratislava, Bratislava, Slovakia",
+      "bbox": [
+        16.94606,
+        48.006663,
+        17.284486,
+        48.265077
+      ],
+      "center": [
+        17.105913,
+        48.143898
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.105913,
+          48.143898
+        ]
+      },
+      "context": [
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Turčianske Jaseno, okres Martin",
+    "addressData": {
+      "id": "poi.635655165467",
+      "type": "Feature",
+      "place_type": [
+        "poi"
+      ],
+      "relevance": 0.538272,
+      "properties": {
+        "foursquare": "557d5d0b498e07d3dfb63140",
+        "landmark": true,
+        "category": "winery, vineyard, wine tasting, landuse"
+      },
+      "text": "Akres",
+      "place_name": "Akres, Mardin, Mardin 47060, Türkiye",
+      "center": [
+        40.639938,
+        37.368675
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.639938,
+          37.368675
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.14986980",
+          "mapbox_id": "dXJuOm1ieHBsYzo1Szdr",
+          "text": "47060"
+        },
+        {
+          "id": "place.6670564",
+          "mapbox_id": "dXJuOm1ieHBsYzpaY2pr",
+          "text": "Mardin"
+        },
+        {
+          "id": "region.58596",
+          "mapbox_id": "dXJuOm1ieHBsYzo1T1E",
+          "wikidata": "Q131293",
+          "short_code": "TR-47",
+          "text": "Mardin"
+        },
+        {
+          "id": "country.8932",
+          "mapbox_id": "dXJuOm1ieHBsYzpJdVE",
+          "wikidata": "Q43",
+          "short_code": "tr",
+          "text": "Türkiye"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Bakošova 2094/4, Bratislava IV - Lamač, okres Bratislava",
+    "addressData": {
+      "id": "address.8362402107886678",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.607143,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6NWJiYzExZDMtNTM4ZC00NTQ3LWE1YzktNDQ0NzNlZGU1N2Ex"
+      },
+      "text": "Lamač",
+      "place_name": "Lamač, 841 03 Bratislava, Bratislava, Slovakia",
+      "center": [
+        17.057666,
+        48.192925
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.057666,
+          48.192925
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5336781",
+          "mapbox_id": "dXJuOm1ieHBsYzpVVzdO",
+          "text": "841 03"
+        },
+        {
+          "id": "place.1403085",
+          "mapbox_id": "dXJuOm1ieHBsYzpGV2pO",
+          "wikidata": "Q1780",
+          "text": "Bratislava"
+        },
+        {
+          "id": "region.25805",
+          "mapbox_id": "dXJuOm1ieHBsYzpaTTA",
+          "wikidata": "Q183498",
+          "short_code": "SK-BL",
+          "text": "Bratislava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Agátová 1172/18, Senica, okres Senica",
+    "addressData": {
+      "id": "address.8046713420849440",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.622519,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6OGE1Mzc1ZmMtMTExOC00ZTJiLWIxNDYtZGExOWU5MWYwZmM2"
+      },
+      "text": "Senica",
+      "place_name": "Senica, 905 01 Senica, Trnava, Slovakia",
+      "matching_place_name": "Senica, 905 01 okres Senica, Trnava, Slovakia",
+      "center": [
+        17.382361,
+        48.658349
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.382361,
+          48.658349
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.5852877",
+          "mapbox_id": "dXJuOm1ieHBsYzpXVTdO",
+          "text": "905 01"
+        },
+        {
+          "id": "place.17565901",
+          "mapbox_id": "dXJuOm1ieHBsYzpBUXdJelE",
+          "wikidata": "Q842557",
+          "text": "Senica"
+        },
+        {
+          "id": "region.9421",
+          "mapbox_id": "dXJuOm1ieHBsYzpKTTA",
+          "wikidata": "Q181342",
+          "short_code": "SK-TA",
+          "text": "Trnava"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Milana Rastislava Štefánika, Levoča, okres Levoča",
+    "addressData": {
+      "id": "address.3346118614130630",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.666667,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6NTEwMWVhNDEtMTk1ZC00NzVhLTk2OGEtZDA3MDg2ZWI0MTk1"
+      },
+      "text": "Milana Rastislava Štefánika",
+      "place_name": "Milana Rastislava Štefánika, 054 01 Levoča, Prešov, Slovakia",
+      "center": [
+        20.593901,
+        49.019309
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.593901,
+          49.019309
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.2625229",
+          "mapbox_id": "dXJuOm1ieHBsYzpLQTdO",
+          "text": "054 01"
+        },
+        {
+          "id": "place.10160333",
+          "mapbox_id": "dXJuOm1ieHBsYzptd2pO",
+          "wikidata": "Q242478",
+          "text": "Levoča"
+        },
+        {
+          "id": "region.66765",
+          "mapbox_id": "dXJuOm1ieHBsYzpBUVRO",
+          "wikidata": "Q189001",
+          "short_code": "SK-PV",
+          "text": "Prešov"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  },
+  {
+    "searchQuery": "Topoľčany, Topoľčany, okres Topoľčany",
+    "addressData": {
+      "id": "address.8675826277379454",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 0.592593,
+      "properties": {
+        "accuracy": "street",
+        "mapbox_id": "dXJuOm1ieGFkci1zdHI6ODdkYmY5YjktMzljNC00OTQyLTg1OGMtNGY5YTQ3ODJlMTE3"
+      },
+      "text": "T. Vansovej",
+      "place_name": "T. Vansovej, 955 01 Topoľčany, Nitra, Slovakia",
+      "matching_text": "Topoľčany",
+      "matching_place_name": "Topoľčany, 955 01 Topoľčany, Nitra, Slovakia",
+      "center": [
+        18.176348,
+        48.559085
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.176348,
+          48.559085
+        ]
+      },
+      "context": [
+        {
+          "id": "postcode.9440973",
+          "mapbox_id": "dXJuOm1ieHBsYzprQTdO",
+          "text": "955 01"
+        },
+        {
+          "id": "place.19949773",
+          "mapbox_id": "dXJuOm1ieHBsYzpBVEJvelE",
+          "wikidata": "Q750423",
+          "text": "Topoľčany"
+        },
+        {
+          "id": "region.50381",
+          "mapbox_id": "dXJuOm1ieHBsYzp4TTA",
+          "wikidata": "Q184548",
+          "short_code": "SK-NI",
+          "text": "Nitra"
+        },
+        {
+          "id": "country.8909",
+          "mapbox_id": "dXJuOm1ieHBsYzpJczA",
+          "wikidata": "Q214",
+          "short_code": "sk",
+          "text": "Slovakia"
+        }
+      ]
+    }
+  }
+]
