@@ -1,42 +1,25 @@
 import { Marker, MarkerClusterer } from '@googlemaps/markerclusterer';
 import { AdvancedMarker, APIProvider, Map, useMap } from '@vis.gl/react-google-maps';
 import { useEffect, useRef, useState } from 'react';
+import { getAdvartises } from '@/api/advartiseApi';
+import { AdvertiseGroup, groupByPosition } from '@/schemas/AdvertiseGroup';
 
-const API_KEY = import.meta.env.VITE_MAP_API_KEY as string;
-const MAP_ID = import.meta.env.VITE_MAP_ID as string;
+const API_KEY = import.meta.env.VITE_MAP_API_KEY;
+const MAP_ID = import.meta.env.VITE_MAP_ID;
 
-type DataItem = {
-  coors: [number, number];
-  [key: string]: any;
-}
 
 function App() {
   const [loading, setLoading] = useState(true);
 
-  const [saleData, setSaleData] = useState<DataItem[]>([]);
+  const [groups, setAdvertises] = useState<AdvertiseGroup[]>([]);
 
-  const [rentData, setRentData] = useState<DataItem[]>([]);
-
-  const fetchJson = async (path: string): Promise<any> => {
-    const response = await fetch(path);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch ${path}: ${response.statusText}`);
-    }
-    const json = await response.json();
-    console.log(json);
-    return json;
-  }
+  const [selectedGroup, setSelectedGroup] = useState<AdvertiseGroup | null>(null);
 
   const loadData = async () => {
-    const [saleData, rentData] = await Promise.all([
-      fetchJson('/for-sale-minified.json'),
-      fetchJson('/for-rent-minified.json'),
-    ]);
-
-    setSaleData(saleData);
-
-    setRentData(rentData.slice(0, 10));
-
+    const advertises = await getAdvartises();
+    const filtered = advertises.filter((adv) => adv.position && (adv.totalPrice || 0) > 5000)
+    const groups = groupByPosition(filtered);
+    setAdvertises(groups);
     setLoading(false);
   };
 
@@ -46,24 +29,41 @@ function App() {
 
   if (loading) return <span>Application loading...</span>
 
-  const initCoors = saleData[0].coors;
+  const initPosition = groups[0].position;
 
-  const initPosition = { lat: initCoors[1], lng: initCoors[0] };
+  if (!initPosition) return <span>Position not found</span>;
 
   return (
-    <APIProvider apiKey={API_KEY}>
-      <div style={{ height: "100vh", width: "100vw" }}>
-        <Map defaultCenter={initPosition} defaultZoom={6} mapId={MAP_ID}>
-          <Markers saleData={saleData} rentData={rentData} />
-        </Map>
-      </div>
-    </APIProvider>
+    <>
+      <APIProvider apiKey={API_KEY}>
+        <div style={{ height: "100vh", width: "100vw", padding: 0, margin: 0 }}>
+          <Map
+            defaultCenter={initPosition}
+            defaultZoom={17}
+            minZoom={12}
+            maxZoom={18}
+            mapId={MAP_ID}
+            disableDefaultUI={true}
+            zoomControl={false}
+            fullscreenControl={false}
+          >
+            <Markers groups={groups} setSelectedGroup={setSelectedGroup} />
+          </Map>
+        </div>
+      </APIProvider>
+
+      {selectedGroup && (
+        <div style={{ position: "fixed", zIndex: 100, top: 0, right: 0, padding: 10, background: "white" }}>
+          Has selected group
+        </div>
+      )}
+    </>
   );
 }
 
 type MarkerProps = {
-  saleData: DataItem[];
-  rentData: DataItem[];
+  groups: AdvertiseGroup[];
+  setSelectedGroup: (group: AdvertiseGroup) => void;
 }
 
 function Markers(props: MarkerProps) {
@@ -101,18 +101,12 @@ function Markers(props: MarkerProps) {
   };
 
   return <>
-    {props.saleData.map((item, index) => (
+    {props.groups.map((group, index) => (
       <AdvancedMarker
         key={`sale-${index}`}
-        position={{ lat: item.coors[1], lng: item.coors[0] }}
+        position={group.position}
         ref={(marker) => setMarkerRef(marker, `sale-${index}`)}
-      />
-    ))}
-    {props.rentData.map((item, index) => (
-      <AdvancedMarker
-        key={`rent-${index}`}
-        position={{ lat: item.coors[1], lng: item.coors[0] }}
-        ref={(marker) => setMarkerRef(marker, `rent-${index}`)}
+        onClick={() => props.setSelectedGroup(group)}
       />
     ))}
   </>
